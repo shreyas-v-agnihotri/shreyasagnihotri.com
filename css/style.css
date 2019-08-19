@@ -16,6 +16,39 @@ VERSION:	1.0
   width: 60vw;
 } */
 
+#contact-form {
+  margin-top: -100px;
+}
+
+#call-to-action {
+  background: #333333;
+}
+
+#about-spacer {
+  margin-right: -40px;
+}
+
+/* .fab, .fas {
+  padding: 6px;
+  margin-right: 3px;
+  font-size: 90% !important;
+  text-align: center;
+  text-decoration: none;
+  background: #333333;
+  color: white;
+  border-radius: 50%;
+  transition: all 0.25s ease-in-out;
+  opacity: 1;
+}
+
+.fab:hover, .fas:hover {
+  background: #2f80ed;
+} */
+
+#profile-pic {
+  border-radius: 50%;
+}
+
 .section-title {
   margin-bottom: 20px;
 }
@@ -28,6 +61,11 @@ html {
   font-weight: 600;
 }
 
+.company-logo {
+  height: 8vh;
+  margin-bottom: 10px;
+}
+
 #logo {
   height: 8vh;
   margin-top: 10px;
@@ -36,6 +74,7 @@ html {
 .description {
   font-size: 24px;
   line-height: 34px;
+  font-weight: 400;
 }
 
 html {
@@ -826,7 +865,7 @@ textarea.form-control {
 }
 
 .footer-widget a {
-  color: rgba(255, 255, 255, 0.5);
+  color: white;
   text-transform: capitalize;
 }
 
