@@ -45,14 +45,17 @@
   
 		  <div class="collapse navbar-collapse" id="navbarsExample09">
 			<ul class="navbar-nav ml-auto">
-			  <li class="nav-item  active"><a class="nav-link" href="/">Home</a></li>
+				
+				<li class="nav-item dropdown active">
+					<a class="nav-link dropdown-toggle" href="/" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
+					<ul class="dropdown-menu" aria-labelledby="dropdown02">
+						<li><a class="dropdown-item" href="/">Intro</a></li>
+						<li><a class="dropdown-item" href="/#projects">Projects</a></li>
+						<li><a class="dropdown-item" href="/#skills">Skills</a></li>
+					</ul>
+					</li>
 
-			  <li class="nav-item"><a class="nav-link" href="/about/">About</a></li>
-
-			  <!-- <li class="nav-item"><a class="nav-link" href="portfolio-1.html">Projects</a></li> -->
-			  <li class="nav-item"><a class="nav-link" href="/#projects">Projects</a></li>
-
-			  <li class="nav-item"><a class="nav-link" href="/#skills">Skills</a></li>
+				<li class="nav-item"><a class="nav-link" href="/about/">About</a></li>
 
 			  <!-- <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li> -->
 
@@ -94,7 +97,7 @@
 <!-- Navigation ENd -->
 
 <!-- Banner Start -->
-<section class="section banner">
+<section class="section banner" id="intro">
 	<div class="container" id="home-banner">
 		<div class="row">
 			<div class="col-lg-9">
@@ -155,12 +158,12 @@
 	      <div class="col-lg-4 col-6 mb-4 shuffle-item"  data-groups="[&quot;design&quot;,&quot;illustration&quot;]">
 		      	<div class="position-relative inner-box">
 		          <div class="image position-relative ">
-	               <img src="images/portfolio/1.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
+	               <img src="images/portfolio/habit-tracker.png" alt="portfolio-image" class="img-fluid w-100 d-block">
 	                <div class="overlay-box">
 	                  <div class="overlay-inner">
 	                    <a class="overlay-content" href="portfolio-single.html">
-	                      <h5 class="mb-0">Painting</h5>
-	                      <p>Design</p>
+	                      <h5 class="mb-0">Habit Tracker</h5>
+	                      <p>UI/UX Design</p>
 	                    </a>
 	                  </div>
 	                </div> 
@@ -274,7 +277,7 @@
 				<div class="service-item mb-5" data-aos="fade-left"  data-aos-delay="450">
 					<i class="ti-bar-chart"></i>
 					<h4 class="my-3">Data Wrangling</h4>
-					<p>Python (BeautifulSoup, selenium) • R (tidyverse, dplyr, ggplot2)</p>
+					<p>Python (BeautifulSoup, selenium) • R (tidyverse, dplyr, ggplot2) • Excel</p>
 				</div>
 			</div>
 			<div class="col-lg-4">
