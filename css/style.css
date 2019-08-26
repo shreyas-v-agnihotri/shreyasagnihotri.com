@@ -28,23 +28,6 @@ VERSION:	1.0
   margin-right: -40px;
 }
 
-/* .fab, .fas {
-  padding: 6px;
-  margin-right: 3px;
-  font-size: 90% !important;
-  text-align: center;
-  text-decoration: none;
-  background: #333333;
-  color: white;
-  border-radius: 50%;
-  transition: all 0.25s ease-in-out;
-  opacity: 1;
-}
-
-.fab:hover, .fas:hover {
-  background: #2f80ed;
-} */
-
 #profile-pic {
   border-radius: 50%;
 }
