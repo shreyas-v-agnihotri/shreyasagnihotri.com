@@ -50,11 +50,6 @@ html {
     font-weight: 600;
 }
 
-.company-logo {
-    height: 8vh;
-    margin-bottom: 10px;
-}
-
 #logo {
     height: 8vh;
     margin-top: 10px;
@@ -80,7 +75,7 @@ body {
     font-weight: 400;
     letter-spacing: 0.166667px;
     line-height: 1.7em;
-    color: #4F4F4F;
+    color: #333333;
     width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -88,7 +83,7 @@ body {
 }
 
 p {
-    color: #4F4F4F;
+    color: #333333;
 }
 
 h1,
@@ -147,6 +142,10 @@ h6,
 
 .text-sm {
     font-size: 14px;
+}
+
+.text-not-bold {
+    font-weight: 400;
 }
 
 .section {
@@ -216,6 +215,40 @@ a:hover {
     outline: none;
 }
 
+.text-link {
+    border-bottom: 1.5px solid #2f80ed;
+}
+
+
+/* .highlight-link {
+    padding-left: 2px;
+    padding-right: 2px;
+    color: #333333;
+    background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(60%, transparent), color-stop(60%, rgba(0, 131, 255, 0.2)), to(rgba(0, 131, 255, 0.2)));
+    background: linear-gradient(to bottom, transparent 0, transparent 60%, rgba(0, 131, 255, 0.2) 60%, rgba(0, 131, 255, 0.2) 100%);
+    text-decoration: none;
+    transition: color 0.5s ease-ins-out;
+} */
+
+
+/* .sliding-link {
+    color: #333333;
+    border-bottom: 1.5px solid #2f80ed;
+    -webkit-transition: all 0.15s ease;
+    -moz-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+    background-size: 100% 200%;
+    background-position: 0 -100%;
+    background-image: linear-gradient(to top, transparent 50%, #2f80ed 50%);
+    transition: color 0.5s ease-in-out;
+}
+
+.sliding-link:hover {
+    color: white;
+    background-position: 0 0;
+    transition: all 0.25s;
+} */
+
 .bg-primary {
     background: #2f80ed !important;
 }
@@ -241,6 +274,11 @@ a:hover {
 .page-title h1 {
     position: relative;
     padding-bottom: 30px;
+}
+
+.page-title h3 {
+    position: relative;
+    padding-top: 30px;
 }
 
 .page-title h1:after {
@@ -300,7 +338,7 @@ a:hover {
 }
 
 ul.dropdown-menu {
-    background: #151515;
+    background: #333333;
     border-radius: 0px;
     margin: 0px;
     padding: 0px;
@@ -317,7 +355,7 @@ ul.dropdown-menu>li>a,
     transition: all .3s ease-in-out;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #27243e;
+    border-bottom: 1px solid #3333332d;
     color: #fff;
     text-transform: uppercase;
 }
@@ -361,11 +399,11 @@ ul.dropdown-menu>li>a:hover,
     -moz-transition: all .3s ease-in-out 0s;
     -ms-transition: all .3s ease-in-out 0s;
     -o-transition: all .3s ease-in-out 0s;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-    -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-    -ms-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-    -o-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 12px #3333332d;
+    -webkit-box-shadow: 0 6px 12px #3333332d;
+    -moz-box-shadow: 0 6px 12px #3333332d;
+    -ms-box-shadow: 0 6px 12px #3333332d;
+    -o-box-shadow: 0 6px 12px #3333332d;
 }
 
 .dropdown:hover .dropdown-menu {
