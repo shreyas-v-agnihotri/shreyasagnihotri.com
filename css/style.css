@@ -18,9 +18,27 @@ VERSION:	1.0
 /* @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap'); */
 
 
-/* #home-banner {
-  width: 60vw;
-} */
+/* Mark all links with this class for blue underline */
+
+.text-link {
+    border-bottom: 1.5px solid #2f80ed;
+}
+
+#mapdiv {
+    width: 60vw;
+    height: 30vw;
+}
+
+@media only screen and (max-width: 768px) {
+    #mapdiv {
+        width: 100vw;
+        height: 50vw;
+    }
+}
+
+.blue {
+    color: #2f80ed;
+}
 
 #contact-form {
     margin-top: -100px;
@@ -48,6 +66,10 @@ html {
 
 .text-bold {
     font-weight: 600;
+}
+
+.text-bold-light {
+    font-weight: 500;
 }
 
 #logo {
@@ -213,10 +235,6 @@ a:hover {
     color: #2f80ed;
     text-decoration: none;
     outline: none;
-}
-
-.text-link {
-    border-bottom: 1.5px solid #2f80ed;
 }
 
 
